@@ -1,0 +1,5 @@
+This folder has the notes and question paper for Neural networks according to the syllabus of BScCSIT(6th semester elective). I added here because in my time I found no helpful resources online. Practical works are more or less in the 'someMLworks' folder itself.
+
+Though I've made the notes in accordance to syllabus, it is to 'note' that I've also skipped important numerical derivations or subtopics which might be of importance for your deep understanding of topics. So I suggest you take this note as a mere reference only during the time of examinations or if you're to briefly have a know-how of the topic. I suggest you go through the text book itself and solve lots of problems to get that 'feel' out of this subject which you won't be getting merely from these notes. Besides I kind of hope that you took the subject for thrill so maybe focus more on building first than the theoretical concepts only. Building neural networks would 10x your progress and that desire to learn these theoretical topics.
+
+Any improvements and suggestions are highly welcome. Happy learning!

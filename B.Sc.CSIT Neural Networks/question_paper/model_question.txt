@@ -1,0 +1,52 @@
+# Model Question
+
+                                                     **Neural Networks (Model Question)**
+Course Title: Neural Networks                                                             Full Marks: 60
+Course No: CSC372                                                                              Pass Marks: 24
+Semester: VI                                                                                          Time: 3 Hrs.
+
+                                                                  **Section A**
+Attempt any two questions. (2 × 10 = 20)
+
+1) Differentiate between small scale and large scale learning problems. How can heuristic be implemented for making back propagation algorithm perform better? (4+6)
+
+
+2) State Cover’s theorem on separability of problems. Explain hybrid learning technique for RBF network. (3+7)
+
+
+3) What is vanishing gradient problem in recurrent networks? How can it be solved? Explain with necessary equations. (4+6)
+
+
+                                                                   **Section B**
+Attempt any eight questions. (8 × 5 = 40)
+
+4) Define neural network. Briefly explain the working mechanism of biological neural with its related functional units (1+4)
+
+5) What is a perceptron? Explain batch perceptron algorithm. (1+4)
+
+    
+
+6) Highlight on minimum-description length principle. Explain instrumental-variables method. (1+4)
+
+
+    
+
+7) Explain LMS algorithm. How does it differ from wiener filter.(4+1)
+
+
+
+8) What are the properties of feature map? Explain Kernel Self-Organizing map.(1+4)
+
+    
+    
+
+9) What is universal approximation theorem? How can real-time recurrent learning be achieved.(1+4)
+
+10) Explain hybrid learning concept in RBF networks (5)
+
+11) Differentiate between batch learning and on-line learning. How is learning rate controlled by using optimal annealing? Explain the concept of network pruning. (1+2+2)    
+    
+
+12) Write short notes on: (2 × 2.5 = 5)
+           a. Convolutional networks
+           b. cross validation

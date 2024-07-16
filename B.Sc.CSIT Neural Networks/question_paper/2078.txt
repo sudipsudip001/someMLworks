@@ -1,0 +1,56 @@
+# 2078
+
+                                                                   Tribhuwan University
+                                                 Institute of Science and Technology
+                                                                             2078
+
+Bachelor Level / Sixth Semester / Science                                                            Full marks: 60
+Computer Science and Information Technology(CSC372)                                 Pass marks: 24
+((TU CSIT) Neural Networks)                                                                                 Time: 3 hours\
+
+Candidates are required to give their answers in their own words as far as practicable.
+The figures in the margin indicate full marks.
+
+ 
+                                                                       **Section A**
+Attempt any two questions.
+
+1) Differentiate between Quasi-Newton method and nonlinear conjugate gradient algorithm for supervised training of multiplayer perception and explain conjugate gradient algorithm.(3+7)
+
+
+2) How XOR (Exclusive OR) problem can be solved by Radial-Basis Function networks. Draw necessary figures and perform required calculations to complete the specificatioin of the RBF network. (10)
+
+
+
+3) Explain real time recurrent learning algorithm for training a recurrent network with practical example. (10)
+
+
+                                                                    **Section B**
+Attempt any eight questions.
+
+4) What are the three basic rules that depicts the flow of signal in a neural network viewed as directed graph? (5)
+
+6) What are the assumptions that need to be considered while estimating parameter in a Gaussian environment? (5)
+
+
+7) Draw the block diagram of signal-flow graph representation of the LMS algorithm and express the evolution of the weight vector. (5)
+
+
+8) Describe four heuristics that provide guidelines for acclerating the convergence of back-propagation learning through learning rate adaption. (5)
+
+
+
+9) Differentiate between RBF network and MLP network. (5)
+
+    
+    
+
+10) Differentiate between willshaw-von der Malshurg's model and Kohonen model. (5)
+
+
+11) Explain Theroem 1 with respect to the computational power of a recurrent network. (5)
+
+
+12) Write short notes on: (2 x 2.5 = 5)
+        a. Wiener filter
+        b. Supervised learning

@@ -17,6 +17,11 @@ class State(TypedDict):
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
+def route_based_on_classification(state: State):
+    if state["classification"] == "Other":
+        return "end"
+    return "continue"
+
 def classification_node(state: State):
     """Classify the text into one of the categories: News, Blog, Research, or Other"""
     prompt = PromptTemplate.from_template(
@@ -55,7 +60,16 @@ workflow.add_node("entity_extraction_node", entity_extraction_node)
 workflow.add_node("summarization_node", summarization_node)
 
 workflow.set_entry_point("classification_node")
-workflow.add_edge("classification_node", "entity_extraction_node")
+
+workflow.add_conditional_edges(
+    "classification_node",
+    route_based_on_classification,
+    {
+        "continue": "entity_extraction_node",
+        "end": END
+    }
+)
+
 workflow.add_edge("entity_extraction_node", "summarization_node")
 workflow.add_edge("summarization_node", END)
 
@@ -63,14 +77,18 @@ app = workflow.compile()
 
 def main():
     print("Hello from lang-classify!")
-    sample_text = """OpenAI has recently announced the release of GPT-4o, a new iteration of their powerful language model. This model is expected to bring significant improvements in natural language understanding and generation capabilities. Researchers and developers are eager to explore the potential applications of GPT-4o in various fields, including healthcare, education, and customer service."""
+    # sample_text = """OpenAI has recently announced the release of GPT-4o, a new iteration of their powerful language model. This model is expected to bring significant improvements in natural language understanding and generation capabilities. Researchers and developers are eager to explore the potential applications of GPT-4o in various fields, including healthcare, education, and customer service."""
+    sample_text = """What did you bring to this world? What are you gonna take away? Nothing's there to cry about and nothing's there to lie down."""
 
     state_input = {"text": sample_text}
     result = app.invoke(state_input)
 
-    print("Classifcation:", result["classification"])
-    print("Entities:", result["entities"])
-    print("Summary:", result["summary"])
+    try:
+        print("Classification:", result["classification"])
+        print("Entities:", result["entities"])
+        print("Summary:", result["summary"])
+    except:
+        pass
 
 
 if __name__ == "__main__":

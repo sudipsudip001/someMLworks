@@ -1,0 +1,26 @@
+1. Gemini 3 Series (Preview)
+
+    Gemini 3.1 Pro (gemini-3.1-pro-preview): An advanced reasoning model optimized for complex agentic workflows, coding, and multimodal problem-solving with a 1M token context window.
+    Gemini 3 Flash (gemini-3-flash-preview): A high-performance model designed for speed and complex multimodal understanding.
+    Gemini 3.1 Flash-Lite (gemini-3.1-flash-lite-preview): A cost-efficient model optimized for low latency in high-volume tasks.
+    Nano Banana Pro/2 (Image Models): High-efficiency image generation and editing models (e.g., gemini-3-pro-image-preview). 
+
+2. Gemini 2.5 Series
+
+    Gemini 2.5 Pro (gemini-2.5-pro): A high-capability model for complex reasoning and coding, featuring a 1M token context window.
+    Gemini 2.5 Flash (gemini-2.5-flash): The best price-performance model for low-latency, high-volume tasks.
+    Gemini 2.5 Flash-Lite (gemini-2.5-flash-lite): Optimized for high-throughput, cost-sensitive tasks.
+    Gemini 2.5 Flash Live (gemini-live-2.5-flash-native-audio): Optimized for real-time conversational agents with native audio.
+    Gemini 2.5 Flash/Pro TTS: Models specialized for high-fidelity text-to-speech generation. 
+
+3. Gemini 2.0 Series
+
+    Gemini 2.0 Flash (gemini-2.0-flash-001): A general-purpose multimodal model.
+    Gemini 2.0 Flash-Lite (gemini-2.0-flash-lite-001): A streamlined model for high-frequency tasks. 
+
+4. Specialized & Media Models
+
+    Imagen 4 & 3: Text-to-image models (e.g., imagen-4.0-ultra-generate-001, imagen-3.0-generate-002).
+    Veo 3.1 & 3.0: High-quality video generation models with native audio, including "Fast" versions for lower latency.
+    Gemini Embeddings: Models for creating vector representations for RAG systems and semantic search.
+    Gemini Robotics: Embodied reasoning models for robotic agents. 
